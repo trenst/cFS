@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "cfe_msg.h": "c",
+        "sample_app.h": "c"
+    },
+    "cmake.sourceDirectory": "/home/sdev/src/cfs/cfe",
+    "C_Cpp.errorSquiggles": "enabled"
+}

@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/apps/sbn/**",
+                "${workspaceFolder}/cfe/modules/msg/fsw/inc",
+                "${workspaceFolder}/apps/sbn/fsw/platform_inc",
+                "${workspaceFolder}/cfe/modules/core_api/fsw/inc",
+                "${workspaceFolder}/osal/src/os/inc",
+                "${workspaceFolder}/build/native/default_cpu1/osal/inc",
+                "${workspaceFolder}/build/inc",
+                "${workspaceFolder}/build/native/default_cpu1/inc",
+                "${workspaceFolder}/psp/fsw/inc"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
