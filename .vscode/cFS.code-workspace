@@ -1,0 +1,46 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"sbn_pack.h": "c",
+			"cfe_es.h": "c",
+			"string.h": "c",
+			"cfe_msgids.h": "c",
+			"cfe_sb_eventids.h": "c",
+			"sbn_app.h": "c",
+			"cfe_tbl_filedef.h": "c",
+			"cfe.h": "c",
+			"sbn_tbl.h": "c",
+			"sbn_platform_cfg.h": "c",
+			"osapi.h": "c",
+			"osapi-binsem.h": "c",
+			"common_types.h": "c",
+			"osconfig.h": "c",
+			"sbn_types.h": "c",
+			"cfe_tbl_module_all.h": "c",
+			"cfe_tbl_internal.h": "c",
+			"cfe_error.h": "c",
+			"cfe_mission_cfg.h": "c",
+			"cfe_fs.h": "c",
+			"cfe_time_api_typedefs.h": "c",
+			"sbn_remap_tbl.h": "c",
+			"cfe_resourceid.h": "c",
+			"cfe_msg.h": "c",
+			"cfe_tbl.h": "c",
+			"cfe_time.h": "c",
+			"cfe_sb.h": "c",
+			"cfe_evs.h": "c",
+			"cfe_psp.h": "c",
+			"sbn_f_ccsds_end_events.h": "c",
+			"sbn_interfaces.h": "c",
+			"osapi-filesys.h": "c"
+		},
+		"makefile.makefilePath": "Makefile",
+		"cmake.sourceDirectory": "${workspaceFolder}/cfe",
+
+	}
+}
