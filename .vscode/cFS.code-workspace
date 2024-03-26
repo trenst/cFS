@@ -36,7 +36,8 @@
 			"cfe_evs.h": "c",
 			"cfe_psp.h": "c",
 			"sbn_f_ccsds_end_events.h": "c",
-			"sbn_interfaces.h": "c"
+			"sbn_interfaces.h": "c",
+			"osapi-filesys.h": "c"
 		},
 		"makefile.makefilePath": "Makefile",
 		"cmake.sourceDirectory": "${workspaceFolder}/cfe",
