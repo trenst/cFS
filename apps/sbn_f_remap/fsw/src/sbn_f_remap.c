@@ -145,7 +145,7 @@ static int BinarySearch(void *Entries, void *SearchEntry, size_t EntryCnt, size_
 
 static int RemapTblSearch(uint32 ProcessorID, uint32 SpacecraftID, CFE_SB_MsgId_t MID)
 {
-    SBN_RemapTblEntry_t Entry = {ProcessorID, SpacecraftID, MID, {0}};
+    SBN_RemapTblEntry_t Entry = {ProcessorID, SpacecraftID, MID, 0};
     return BinarySearch(RemapTbl->Entries, &Entry, RemapTblCnt, sizeof(SBN_RemapTblEntry_t), RemapTblCompar);
 } /* end RemapTblSearch() */
 
