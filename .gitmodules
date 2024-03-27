@@ -42,3 +42,6 @@
 	path = tools/tblCRCTool
 	url = ssh://git@bitbucket.ga.com:7999/ssetcom/tblcrctool.git
   branch = main
+[submodule "apps/sbn"]
+	path = apps/sbn
+	url = https://github.com/trenst/SBN.git
