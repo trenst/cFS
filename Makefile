@@ -115,6 +115,10 @@ ifneq ($(BUILDTYPE),)
 PREP_OPTS += -DCMAKE_BUILD_TYPE=$(BUILDTYPE)
 endif
 
+ifneq ($(OMIT_DEPRECATED),)
+PREP_OPTS += -DOSAL_OMIT_DEPRECATED=$(OMIT_DEPRECATED)
+endif
+
 all:
 	$(MAKE) --no-print-directory -C "$(O)" mission-all
 
