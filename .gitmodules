@@ -1,6 +1,6 @@
 [submodule "cfe"]
 	path = cfe
-	url = ssh://git@bitbucket.ga.com:7999/ssetcom/cfe.git
+	url = https://github.com/trenst/cFE.git
 	branch = main
 [submodule "osal"]
 	path = osal
