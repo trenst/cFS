@@ -120,7 +120,7 @@ endif
 # endif
 
 all:
-	$(MAKE) --no-print-directory -C "$(O)" mission-all
+	$(MAKE) --no-print-directory -C "$(O)" -j 16 mission-all
 
 install:
 	$(MAKE) --no-print-directory -C "$(O)" DESTDIR="$(DESTDIR)" mission-install
